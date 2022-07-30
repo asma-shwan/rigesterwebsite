@@ -1,0 +1,109 @@
+
+body{
+    margin: 0rem;
+font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+height: 100vh;
+flex-direction: column;
+background-size: cover;
+display: flex;
+background-image: url("https://i.pinimg.com/736x/c8/a8/99/c8a899a3e2f856ddd551256eb63ef724.jpg");
+    
+}
+#welcome{
+    font-size: 40px;
+font-weight: bold;
+letter-spacing: 4px;
+}
+#btnjoin{
+    padding: 10px 20px;
+    background-color:palevioletred;
+    border: 1px solid black;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 100;
+}
+#btnjoin:hover{
+    box-shadow: 0px 0px 6px 3px black;
+    transition: 0.5s;
+}
+.box{
+background-image: url("https://st3.depositphotos.com/3283585/31673/v/1600/depositphotos_316739840-stock-illustration-vector-illustration-fashionable-clothes-women.jpg");
+border: 2px solid black;
+background-size: cover;
+height: 250px;
+width: 400px;
+display: inline-block;
+text-align: center;
+align-items: center;
+position:fixed;
+justify-content: center;
+border-radius: 5px;
+left: 50%;
+transform: translateX(-50%);
+top: 30%;
+transition: all 0.5s;
+box-shadow: 0px 0px 4px black;
+}
+#discount{
+    font-size: 20px;
+    margin-left: 4px;
+    font-weight: bold;
+    text-align: left;
+}
+#yourEmail{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 4px;
+    text-align: left;
+}
+#inp{
+    align-self: center;
+  text-align: center;
+  width: 93%;
+  max-width: 100%;
+  font-size: 16px;
+  height: 27px;
+letter-spacing: 3px;
+border: 2px solid black;
+font-family: 'Times New Roman', Times, serif;
+
+}
+#join{
+    width: 95%;
+    height: 30px;
+    margin-top:5px ;
+    border: 2px solid black;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:palevioletred;
+    text-align: center;
+}
+#join:hover{
+    box-shadow: 0px 0px 6px 3px black;
+    transition: 0.5s;
+}
+.close-icon{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.close-icon:hover{
+color:palevioletred;
+transition: 0.3}
+.active.box{
+    visibility: hidden;
+    left: 30%;
+}
+.active.div{
+    filter: blur(5px) brightness(.7);
+}
